@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get update -y
+sudo apt-get update
 wait
 sudo apt-get upgrade -y
 sudo apt install vnstat speedometer wget zip unzip curl git -y
